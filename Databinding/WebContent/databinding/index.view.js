@@ -28,7 +28,7 @@ sap.ui.jsview("databinding.index", {
 		oModel.oHeaders = {
 				"DataServiceVersion":"3.0",
 				"MaxDataServiceVersion":"3.0"
-		}
+		};
 		var oTable = new sap.m.Table("table",{
 			headerText: "Product List",
 			columns : [new sap.m.Column({
@@ -62,7 +62,7 @@ sap.ui.jsview("databinding.index", {
 		oTable.setModel(oModel);
 		
 		var oPage = new sap.m.Page({
-			title: "Demo",
+			title: "Demo Test",
 			content:[oTable],
 			footer: [sap.m.Bar({
 				design: sap.m.BarDesign.Footer,
